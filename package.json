@@ -1,0 +1,9 @@
+{
+  "name": "valid-github-username",
+  "version": "0.0.1",
+  "description": "Generate the nearest valid GitHub username from a string",
+  "main": "index.js",
+  "repository": "https://github.com/andrewda/valid-github-username",
+  "author": "Andrew Dassonville <dassonville.andrew@gmail.com>",
+  "license": "MIT"
+}

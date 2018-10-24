@@ -13,6 +13,23 @@ describe('removes illegal characters', () => {
    });
 });
 
+describe('removes illegal hyphen placement', () => {
+    it('removes consecutive dashes', () => {
+        let username = validGitHubUsername('kx--chen');
+        assert.equal(username, 'kxchen');
+    });
+
+    it('removes trailing dashes', () => {
+        let username = validGitHubUsername('kxchen-');
+        assert.equal(username, 'kxchen');
+    });
+
+    it('removes leading dashes', () => {
+        let username = validGitHubUsername('-kxchen');
+        assert.equal(username, 'kxchen');
+    });
+});
+
 describe('length should not exceed 39', () => {
    it('does not accept length > 39', () => {
       let username = validGitHubUsername('k'.repeat(40));

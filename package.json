@@ -8,5 +8,8 @@
   "license": "MIT",
   "devDependencies": {
     "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha test.js"
   }
 }

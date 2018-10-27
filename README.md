@@ -27,6 +27,8 @@ Use `npm test` to use the program.
       length should not exceed 39
         ✓ does not accept length > 39
 
+## Final output:
+If it passes it should output `passing`. For ex:
 
       6 passing (7ms)
 

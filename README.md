@@ -6,7 +6,15 @@ Make sure you have node installed. Then clone the repo.
     git clone https://github.com/andrewda/valid-github-username.git
     
 ## Usage
-Use `npm test` to use the program.
+Use this code to import the code:
+
+    const validGitHubUsername = require('./index');
+    
+then use the function by passing in a username:
+    
+    let username = validGitHubUsername('kx chen');
+    
+It will then return a new username that is valid (in this example without spaces).
     
 ## Checks it performs:
 

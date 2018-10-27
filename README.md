@@ -1,6 +1,14 @@
 # valid-github-username
 
-This node.js program checks if a username is a valid github username. An example output from this program is:
+## Installation
+Make sure you have node installed. Then clone the repo.
+
+    git clone https://github.com/andrewda/valid-github-username.git
+    
+## Usage
+Use `npm test` to use the program.
+    
+## Checks it performs:
 
     > valid-github-username@0.0.1 test /home/sheshank/valid-github-username
     > mocha test.js
